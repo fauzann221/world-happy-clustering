@@ -222,6 +222,8 @@ plt.title('Relationship between Perceptions of corruption and Happiness Score')
 plt.show()
 ```
 
+![corupvsscore](https://github.com/fauzann221/world-happy-clustering/assets/149223860/55d192e6-9bb0-495b-b076-496517507a7a)
+
 ### Preprocessing
 
 Pertama kita tidak mau menggunakan semua kolom pada dataframe jadi kita akan membuat dataframe baru untuk modelingnya, lalu kita lihat isi dataframenya
