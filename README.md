@@ -310,7 +310,7 @@ Labels
 
 ## Deployment
 
-![Segmentasi faktor kebahagiaan sebuah negara](https://world-happy-clustering.streamlit.app/)
+[Segmentasi faktor kebahagiaan sebuah negara](https://world-happy-clustering.streamlit.app/)
 
 ![streamlit](https://github.com/fauzann221/world-happy-clustering/assets/149223860/7c263a7f-bbda-4104-8222-ecfc5455ce5d)
 
