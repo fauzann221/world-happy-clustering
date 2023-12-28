@@ -146,7 +146,8 @@ Heatmap antar kolom, kita lihat GDP per capita, social support dan healt life ex
 sns.heatmap(df.corr(), annot=True)
 ```
 
-![](foto/heatmap.png)
+![heatmap](https://github.com/fauzann221/world-happy-clustering/assets/149223860/a75d05f4-32d2-44b5-b86d-72fafc34f155)
+
 
 Menampilkan 10 negara dengan rasio bahagia tertinggi, bisa kita lihat Finland pada urutan pertama lalu diikuti oleh denmark
 
@@ -165,7 +166,9 @@ plt.show()
 
 ```
 
-![](foto/10happines.png)
+![10happines](https://github.com/fauzann221/world-happy-clustering/assets/149223860/f71da5ed-450f-4117-90a2-52a3c8a9719e)
+
+
 Menampilkan 10 negara dengan GDP percapita tertinggi, Qatar adalah negara dengan GDP tertinggi
 
 ```py
@@ -182,7 +185,8 @@ plt.title('Top 10 Countries with Highest GDP')
 plt.show()
 ```
 
-![](foto/10gdp.png)
+![10gdp](https://github.com/fauzann221/world-happy-clustering/assets/149223860/940e5377-3071-4d55-9c3f-6d276466aedc)
+
 
 Hubungan GDP pre capita dengan Happiness Score, semakin GDP per capita tinggi semakin tinggi kebahagiaan sebuah negara
 
@@ -200,7 +204,7 @@ plt.title('Relationship between GDP per capita and Happiness Score')
 plt.show()
 ```
 
-![](images/gdpvsscore.png)
+![gdpvsscore](https://github.com/fauzann221/world-happy-clustering/assets/149223860/4d85b3fd-c151-4528-9d1c-5650f97099bf)
 
 Persepsi korupsi atau kepercayaan masyarakat terhadap pemerintah memiliki efek negatif yang cukup signifikan
 
@@ -250,7 +254,7 @@ ax.annotate("Possible elbow point", xy=(5, 25), xytext=(6, 100), xycoords="data"
             arrowprops=dict(arrowstyle="->", connectionstyle="arc3", color="red", lw=2))
 ```
 
-![](images/elbow.png)
+![elbow](https://github.com/fauzann221/world-happy-clustering/assets/149223860/a0d8a46a-f21e-4eff-8525-b3e41841060d)
 
 Bisa kita lihat possible elbownya pointnya berada dari 3 sampai 5 kita akan ambil 4 karena 4 mewakili keduanya
 
@@ -278,11 +282,12 @@ for label in x['Labels']:
    color = 'black')
 ```
 
-![](images/clusgdp.png)
+![clusgdp](https://github.com/fauzann221/world-happy-clustering/assets/149223860/a7744c0d-0687-42a2-9b15-8e38da492e30)
+
 
 Lalu social support dengan happiness score
 
-![](images/clustsocial.png)
+![clustsocial](https://github.com/fauzann221/world-happy-clustering/assets/149223860/706aecfd-a57f-4e62-9b4e-ac3cb9cf72a7)
 
 Selanjutnya kita lihat nilai rata-rata dari setiap label
 
